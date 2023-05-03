@@ -1,1 +1,50 @@
 ls -a
+
+
+
+USER@DESKTOP-T7VBL83 MINGW64 ~ (main)
+$ cd Desktop/
+
+USER@DESKTOP-T7VBL83 MINGW64 ~/Desktop (main)
+$ cd story2/
+
+USER@DESKTOP-T7VBL83 MINGW64 ~/Desktop/story2 (master)
+$ git log
+commit 009f78383aa0c73a71c3a520179a2d7a85379b5e (HEAD -> master)
+Author: Ritu-whjr <suruby2k18@gmail.com>
+Date:   Wed May 3 15:39:39 2023 +0530
+
+    firstcommithee
+
+commit ee9d925226d8ce349e99382c2aa0e42314d2a351
+Author: Ritu-whjr <suruby2k18@gmail.com>
+Date:   Wed May 3 15:30:38 2023 +0530
+
+    second commit
+
+commit c70f7617416ed180a11c3644d32a36d35b044eb4 (origin/master)
+Author: Ritu-whjr <suruby2k18@gmail.com>
+Date:   Wed May 3 14:51:35 2023 +0530
+
+    initial commit hee
+
+commit 2aa03f3dcf099a1b1c1b51bb0b61b3c50261ffba
+Author: Ritu-whjr <suruby2k18@gmail.com>
+Date:   Wed May 3 09:37:10 2023 +0530
+
+    first commit
+
+USER@DESKTOP-T7VBL83 MINGW64 ~/Desktop/story2 (master)
+$ git branch motupatlu
+
+USER@DESKTOP-T7VBL83 MINGW64 ~/Desktop/story2 (master)
+$ git branch
+* master
+  motupatlu
+
+USER@DESKTOP-T7VBL83 MINGW64 ~/Desktop/story2 (master)
+$ git checkout motupatlu
+Switched to branch 'motupatlu'
+
+USER@DESKTOP-T7VBL83 MINGW64 ~/Desktop/story2 (motupatlu)
+$
